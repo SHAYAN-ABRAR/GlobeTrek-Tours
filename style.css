@@ -5,7 +5,8 @@
 }
 
 header {
-    padding: 31.25px 140px; /* Converted from rem to px */
+    padding: 31.25px 140px;
+    /* Converted from rem to px */
 }
 
 .navL {
@@ -14,72 +15,87 @@ header {
 
 .navR {
     color: #424247;
-    font-size: 18px; /* Converted from rem to px */
+    font-size: 18px;
+    /* Converted from rem to px */
     font-weight: 400;
 }
 
 .navL img {
-    margin-right: 20.08px; /* Converted from rem to px */
+    margin-right: 20.08px;
+    /* Converted from rem to px */
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 30px; /* Converted from rem to px */
+    padding-bottom: 30px;
+    /* Converted from rem to px */
 }
 
-.navR > a {
+.navR>a {
     text-decoration: none;
     color: black;
-    margin-left: 20.08px; /* Converted from rem to px */
+    margin-left: 20.08px;
+    /* Converted from rem to px */
 }
 
 .nav-title {
-    font-size: 36px; /* Converted from rem to px */
+    font-size: 36px;
+    /* Converted from rem to px */
     font-weight: 800;
 }
 
 .banner {
     text-align: center;
-    padding: 30px 16px; /* Converted from rem to px */
+    padding: 30px 16px;
+    /* Converted from rem to px */
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 70%), url('Images/Group 13 (1) (1).png');
     background-size: 100% auto;
     color: #fff;
-    height: 480px; /* Converted from rem to px */
+    height: 480px;
+    /* Converted from rem to px */
 }
 
 .banner-title {
-    font-size: 64px; /* Converted from rem to px */
+    font-size: 64px;
+    /* Converted from rem to px */
     font-weight: 800;
 }
 
 .banner-description {
-    font-size: 16px; /* Converted from rem to px */
+    font-size: 16px;
+    /* Converted from rem to px */
     font-weight: 400;
-    padding-bottom: 50px; /* Converted from rem to px */
+    padding-bottom: 50px;
+    /* Converted from rem to px */
 }
 
 .form-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 16px; /* Converted from rem to px */
+    margin-top: 16px;
+    /* Converted from rem to px */
 }
 
 .form-group {
-    margin-right: 16px; /* Converted from rem to px */
+    margin-right: 16px;
+    /* Converted from rem to px */
 }
 
 input,
 select,
 button {
-    padding: 8px; /* Converted from rem to px */
-    font-size: 16px; /* Converted from rem to px */
+    padding: 8px;
+    /* Converted from rem to px */
+    font-size: 16px;
+    /* Converted from rem to px */
 }
 
 .primary-btn {
-    border-radius: 8px; /* Converted from rem to px */
+    border-radius: 8px;
+    /* Converted from rem to px */
     background: #FF5400;
     color: #fff;
     border: none;
@@ -91,133 +107,310 @@ button {
     justify-content: center;
 }
 
-.popular{
+.popular {
     display: flex;
     margin: 40px 140px;
 }
-.popular-title{
+
+.popular-title {
     color: #131318;
-text-align: center;
-font-size: 40px;
-font-weight: 800;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
 }
-.popular-description{
+
+.popular-description {
     color: rgba(19, 19, 24, 0.70);
-font-size: 16px;;
-font-weight: 400;
-line-height: 26px;
-padding-right: 100px;
+    font-size: 16px;
+    ;
+    font-weight: 400;
+    line-height: 26px;
+    padding-right: 100px;
 }
-.pop-img{
+
+.pop-img {
     margin-top: 100px;
 }
-ul{
-    padding: 20px ;
+
+ul {
+    padding: 20px;
 }
-.destination{
+
+.destination {
     margin: 0px 140px;
 }
-.des-title{
+
+.des-title {
     color: #131318;
-text-align: center;
-font-size: 40px;
-font-weight: 800;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
 }
-.des-description{
+
+.des-description {
     color: rgba(19, 19, 24, 0.70);
-text-align: center;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px; 
-margin: 0 20%;
-padding-bottom: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 20%;
+    padding-bottom: 30px;
 }
-.des-first{
+
+.des-first {
     margin: 0 220px;
 }
-.des-second{
+
+.des-second {
     margin: 0 230px;
-    
+
 }
-.des-third{
+
+.des-third {
     margin: 0 220px;
 }
-.des-img{
+
+.des-img {
     position: relative;
 }
 
-.m{
+.m {
     position: absolute;
     top: 15%;
     left: 30%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 24px; /* Adjust the font size as needed */
+    font-size: 24px;
+    /* Adjust the font size as needed */
     font-weight: bold;
 }
-.i{
+
+.i {
     position: absolute;
     top: 15%;
     left: 68%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 24px; /* Adjust the font size as needed */
+    font-size: 24px;
+    /* Adjust the font size as needed */
     font-weight: bold;
 }
-.s{
+
+.s {
     position: absolute;
     top: 48%;
     left: 26%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 24px; /* Adjust the font size as needed */
+    font-size: 24px;
+    /* Adjust the font size as needed */
     font-weight: bold;
 }
-.n{
+
+.n {
     position: absolute;
     top: 48%;
     left: 53%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 24px; /* Adjust the font size as needed */
+    font-size: 24px;
+    /* Adjust the font size as needed */
     font-weight: bold;
 }
-.k{
+
+.k {
     position: absolute;
     top: 50%;
     left: 76%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 24px; /* Adjust the font size as needed */
+    font-size: 24px;
+    /* Adjust the font size as needed */
     font-weight: bold;
 }
-.b{
+
+.b {
     position: absolute;
     top: 80%;
     left: 29%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 24px; /* Adjust the font size as needed */
+    font-size: 24px;
+    /* Adjust the font size as needed */
     font-weight: bold;
 }
-.ba{
+
+.ba {
     position: absolute;
     top: 80%;
     left: 63%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 24px; /* Adjust the font size as needed */
+    font-size: 24px;
+    /* Adjust the font size as needed */
     font-weight: bold;
 }
 
 
+.hotels,
+.service,
+.price {
+    border: 2px solid #ddd;
 
+    border-radius: 10px;
 
+    padding: 20px;
 
+    margin: 10px;
 
+    width: 30%;
+}
 
+.choose-us {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 50px;
 
+}
 
+.ch-description {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 30px 600px;
+}
 
+.choose-us-container {
+    margin: 0px 140px;
+}
 
+.ch-first {
+    display: flex;
+    padding: 0 100px;
+    justify-content: center;
+}
 
+.price {
+    position: absolute;
+    top: 372%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    text-align: center;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.hotels {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.service {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.get-lost {
+    display: flex;
+    margin: 0px 140px;
+}
+
+.gl-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.gl-description {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-right: 100px;
+
+}
+
+.gl-list {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    padding-right: 100px;
+}
+
+.newsletter {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+border: 1px solid #FF5400;
+padding: 50px 100px;
+
+}
+
+.newsletter h2 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.news-details{
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+
+.newsletter form {
+   
+    margin-top: 20px;
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"] {
+    width: 300px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.newsletter input[type="text"]:focus,
+.newsletter input[type="email"]:focus {
+    outline: none;
+    box-shadow: 0 0 2px 1px #007bff;
+}
+.news{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.news-img{
+    margin-left: 50px;
+}
+.save{
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 50px;
+    background-color: #FF900E;
+    display: flex;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 5px;
+    right: 50px;
+    margin: 0;
+    transform: rotate(320deg); 
+    cursor: pointer;
+}
