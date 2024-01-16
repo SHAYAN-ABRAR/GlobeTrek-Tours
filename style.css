@@ -414,3 +414,41 @@ line-height: 26px;
     transform: rotate(320deg); 
     cursor: pointer;
 }
+.footer{
+    background: rgba(19, 19, 24, 0.05);
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.ft-title{
+    padding-top: 120px;
+font-size: 32px;
+font-weight: 800;
+text-align: center;
+padding-bottom: 20px;
+}
+.ft-details{
+    padding: 0 140px;
+    color: #5A5A5D;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.ft-icons {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; 
+    gap: 50px;
+    margin-top: 50px;
+}
+.ft-small {
+    display: block;
+    text-align: center;
+    color: #888; 
+    font-size: 12px; 
+    margin: 0; 
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
