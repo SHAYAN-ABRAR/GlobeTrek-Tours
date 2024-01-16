@@ -159,19 +159,27 @@ ul {
 
 .des-first {
     margin: 0 220px;
+    display: flex;
 }
 
 .des-second {
     margin: 0 230px;
+    display: flex;
 
 }
 
 .des-third {
     margin: 0 220px;
+    display: flex;
 }
 
 .des-img {
     position: relative;
+    
+}
+.des-img img{
+    margin-right: 20px;
+    margin-top: 20px;
 }
 
 .m {
@@ -221,7 +229,7 @@ ul {
 .k {
     position: absolute;
     top: 50%;
-    left: 76%;
+    left: 78%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 24px;
