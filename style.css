@@ -304,10 +304,6 @@ ul {
 }
 
 .price {
-    /* position: absolute;
-    top: 372%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
     width: 30%;
     text-align: center;
     border-radius: 16px;
