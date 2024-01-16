@@ -158,12 +158,12 @@ ul {
 }
 
 .des-first {
-    margin: 0 190px;
+    margin: 0 220px;
     display: flex;
 }
 
 .des-second {
-    margin: 0 190px;
+    margin: 0 230px;
     display: flex;
 
 }
@@ -300,13 +300,14 @@ ul {
     display: flex;
     padding: 0 100px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .price {
-    position: absolute;
+    /* position: absolute;
     top: 372%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
     width: 30%;
     text-align: center;
     border-radius: 16px;
@@ -459,4 +460,20 @@ line-height: 26px;
     margin: 0; 
     padding-top: 70px;
     padding-bottom: 70px;
+}
+
+
+
+
+
+@media screen and (max-width:600px){
+    .navL img{
+        padding: 30px;
+       width: 40px;
+       height: 50px
+    }
+    .navl h2{
+        width: 10px;
+        height: 40px;
+    }
 }
