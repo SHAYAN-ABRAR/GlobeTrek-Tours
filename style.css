@@ -175,7 +175,7 @@ ul {
 
 .des-img {
     position: relative;
-    /* margin-right: 200px; */
+    margin-right: 200px;
     
 }
 .des-img img{
@@ -190,7 +190,6 @@ ul {
     transform: translate(-50%, -50%);
     color: white;
     font-size: 24px;
-    /* Adjust the font size as needed */
     font-weight: bold;
 }
 
