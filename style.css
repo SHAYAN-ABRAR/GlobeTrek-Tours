@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+header {
+    padding: 31.25px 140px; /* Converted from rem to px */
+}
+
+.navL {
+    display: flex;
+}
+
+.navR {
+    color: #424247;
+    font-size: 18px; /* Converted from rem to px */
+    font-weight: 400;
+}
+
+.navL img {
+    margin-right: 20.08px; /* Converted from rem to px */
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px; /* Converted from rem to px */
+}
+
+.navR > a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20.08px; /* Converted from rem to px */
+}
+
+.nav-title {
+    font-size: 36px; /* Converted from rem to px */
+    font-weight: 800;
+}
+
+.banner {
+    text-align: center;
+    padding: 30px 16px; /* Converted from rem to px */
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 70%), url('Images/Group 13 (1) (1).png');
+    background-size: 100% auto;
+    color: #fff;
+    height: 480px; /* Converted from rem to px */
+}
+
+.banner-title {
+    font-size: 64px; /* Converted from rem to px */
+    font-weight: 800;
+}
+
+.banner-description {
+    font-size: 16px; /* Converted from rem to px */
+    font-weight: 400;
+    padding-bottom: 50px; /* Converted from rem to px */
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px; /* Converted from rem to px */
+}
+
+.form-group {
+    margin-right: 16px; /* Converted from rem to px */
+}
+
+input,
+select,
+button {
+    padding: 8px; /* Converted from rem to px */
+    font-size: 16px; /* Converted from rem to px */
+}
+
+.primary-btn {
+    border-radius: 8px; /* Converted from rem to px */
+    background: #FF5400;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.banner-form {
+    display: flex;
+    justify-content: center;
+}
+
+.popular{
+    display: flex;
+    margin: 40px 140px;
+}
+.popular-title{
+    color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.popular-description{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;;
+font-weight: 400;
+line-height: 26px;
+padding-right: 100px;
+}
+.pop-img{
+    margin-top: 100px;
+}
+ul{
+    padding: 20px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
