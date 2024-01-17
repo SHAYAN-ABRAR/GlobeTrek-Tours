@@ -559,6 +559,44 @@ ul {
     margin: 10px;
     min-width: 350px; 
 }
+.m {
+   
+    top: 5%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.i {
+    top: 16%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.s {
+   
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.n {
+    top: 46%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.k {
+    top: 64%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.b {
+    top: 82%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.ba {
+    top: 94%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+   
     .ch-first {
         display: flex;
         flex-direction: column; 
@@ -650,6 +688,7 @@ ul {
         
         margin-top: 20px;
         width: 100%;
+        margin-right: 230px;
         position: relative;
        
     }
