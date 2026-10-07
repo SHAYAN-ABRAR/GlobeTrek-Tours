@@ -1,81 +1,76 @@
-# GlobeTrek Tours
+# GlobeTrek Tours — A world beyond ordinary
 
-A travel agency landing page built with plain HTML and CSS: trip search, popular tours, a destination gallery and a newsletter sign-up.
+A cinematic travel discovery concept by **Shayan Abrar**. Built with plain HTML, CSS, and JavaScript, with five original AI-generated destination images, self-hosted fonts, and a working personal trip notebook.
 
-**Live site:** <https://shayan-abrar.github.io/GlobeTrek-Tours/>
+**Project:** <https://github.com/SHAYAN-ABRAR/GlobeTrek-Tours>
+**GitHub Pages address:** <https://shayan-abrar.github.io/GlobeTrek-Tours/>
 
-<p align="center">
-  <img src="screenshots/tour.gif" width="800" alt="Animated tour through the hero with the trip search bar, the popular tours section, the destination gallery and the newsletter section">
-</p>
+![GlobeTrek desktop redesign](screenshots/redesign-home.jpg)
 
-<table>
-  <tr>
-    <td align="center" width="25%"><a href="screenshots/preview.jpg"><img src="screenshots/preview.jpg" width="190" alt="Hero with the headline Explore Your Travel over a pier photo and a search bar with Where, When and Select Type fields"></a><br><sub><b>Hero</b> · trip search</sub></td>
-    <td align="center" width="25%"><a href="screenshots/popular-tours.jpg"><img src="screenshots/popular-tours.jpg" width="190" alt="Our Popular Tours section with a text column and a mountain photo"></a><br><sub><b>Popular tours</b></sub></td>
-    <td align="center" width="25%"><a href="screenshots/destinations.jpg"><img src="screenshots/destinations.jpg" width="190" alt="Choose Your Destination gallery with labeled photos of Maldives, Indonesia, Sri Lanka, North America and Kashmir"></a><br><sub><b>Destinations</b></sub></td>
-    <td align="center" width="25%"><a href="screenshots/newsletter.jpg"><img src="screenshots/newsletter.jpg" width="190" alt="Newsletter sign-up card beside a landscape photo with a Save up to 70% tag, above the footer"></a><br><sub><b>Newsletter</b> · footer</sub></td>
-  </tr>
-</table>
+## Preview locally
 
-A travel agency's homepage has to inspire people and then point them to a next step, whether that's a search, a tour or a sign-up. This page covers that path in one scroll with only HTML and one stylesheet, so each section's layout (Flexbox rows, an image gallery, a card grid and a form) is easy to study on its own.
+Open `index.html` directly in a modern browser. No installation or build step is needed.
 
-## Quick Start
+Alternatively, run this from the project folder:
 
-```bash
-git clone https://github.com/SHAYAN-ABRAR/GlobeTrek-Tours.git
-cd GlobeTrek-Tours
-python3 -m http.server 8000
+```powershell
+python -m http.server 8000
 ```
 
-Open <http://localhost:8000>. On Windows, use `python` instead of `python3`. Opening `index.html` directly in a browser works too. Font Awesome, the Mulish font and the embedded YouTube video load from the internet.
+Then visit <http://localhost:8000>. On macOS or Linux, use `python3` if needed.
 
-## Features
+## What works
 
-- **Hero with trip search:** a "Where" field, **When** and **Select Type** (solo or family) dropdowns and a **Find Now** button over a full-width photo.
-- **Our Popular Tours:** a text column with highlights and a **Read More** button beside a mountain photo.
-- **Choose Your Destination:** a photo gallery labeled Maldives, Indonesia, Sri Lanka, North America, Kashmir, Bangladesh and Bandarban.
-- **Why Choose Us:** cards for handpicked hotels, world-class service and a best-price guarantee.
-- **A Simple Perfect Place To Get Lost:** feature copy next to an embedded YouTube video.
-- **Newsletter:** name and email fields with a "Save up to 70%" tag on the photo beside them.
-- **Compact header on phones:** below 600px the navigation links are hidden, a hamburger icon appears and the search fields stack.
+- A responsive cinematic homepage, mobile navigation, keyboard focus indicators, and reduced-motion support.
+- Seven destinations retained from the original project: Maldives, Indonesia, Sri Lanka, North America, Kashmir, Bangladesh, and Bandarban.
+- Combined search by destination, experience, and trip length; empty results with a clear reset.
+- Experience cards that filter the destination collection.
+- Individual itinerary dialogs with three-part sample journey outlines.
+- Saved destinations that persist locally in the same browser; a usable session-only fallback if storage is blocked.
+- A personal trip planner with destination, optional future departure date, party size, pace, and notes.
+- A downloadable UTF-8 text trip notebook and a locally saved draft.
+- The original YouTube film, loaded only after the visitor chooses to play it, with an external link fallback.
 
-## Customizing
+## Scope
 
-The page's orange accent is applied inline in `index.html` (`color: #FF5400`) for the "Trek" part of the logo and the active nav link. The phone breakpoint is the `@media screen and (max-width: 600px)` block at the end of `style.css`, which is where the header changes:
+This is a **travel inspiration portfolio project**, not a connected booking service. The itinerary outlines and durations are illustrative. No live availability, prices, payments, reservations, email subscriptions, or agency contact submissions are implemented. The trip planner does not transmit user data. Saved trips and the last plan stay in the current browser's local storage.
 
-```css
-@media screen and (max-width: 600px) {
-    .navR {
-        display: none;
-    }
+The original inactive newsletter form has been replaced by the useful trip notebook flow. The original destinations, orange brand accent, travel film, creator links, and original image files are retained. Original screenshots remain as historical reference; images prefixed `redesign-` show the new version.
 
-    .nav-toggle {
-        display: block;
-    }
-}
-```
+## Design and assets
 
-## Limitations
+- Forest green, warm paper, and persimmon orange.
+- Barlow Condensed for expressive display type; Inter for the interface.
+- Five custom AI-generated destination impressions: Indonesian islands, Maldives, Kashmir, Sri Lanka, and Bandarban. They illustrate a mood rather than document an exact location or tour.
+- Responsive WebP image exports and self-hosted fonts. No runtime font, icon, or JavaScript CDN.
+- Two additional collection images optimized from the original repository, for Bangladesh and North America.
+- Exact AI prompts and image provenance: [`assets/images/README.md`](assets/images/README.md).
+- Font licenses: `assets/fonts/OFL-Barlow-Condensed.txt` and `assets/fonts/OFL-Inter.txt`.
 
-- The layout is sized for wide screens. On windows narrower than about 1,540px the destination gallery is wider than the page, so a horizontal scrollbar appears, and phones scroll sideways too.
-- The hamburger icon doesn't open a menu, and the search, **Read More**, **See More** and **Subscribe** buttons aren't connected to anything.
-- The "Why Choose Us" introduction renders as a very narrow column, and the destination labels are positioned absolutely, so some of them overlap the edges of their photos.
+## Edit the site
 
-## Tech Stack
+- `index.html`: page sections, semantic structure, dialog shells, metadata, footer links.
+- `style.css`: colors, typography, layout, responsive rules, motion, and dialog styling.
+- `script.js`: the `trips` array, filtering, saved destinations, dialogs, and the planner.
+- `assets/images/`: all optimized imagery used by the redesign.
+- `assets/favicon.svg`: the custom compass mark.
 
-- HTML5
-- CSS3 (Flexbox and a media query) in `style.css`
-- Font Awesome 6.5.1 (search icon) and Google Fonts: Mulish
-- Hosted on GitHub Pages
+To change an itinerary, edit its entry in the `trips` array in `script.js`. To add a new destination, also add it to the two destination selects in `index.html` and update the collection counts. User notes are inserted with `textContent`, never interpreted as HTML.
 
-## Contributing
+## GitHub Pages
 
-Suggestions and bug reports are welcome. Please [open an issue](https://github.com/SHAYAN-ABRAR/GlobeTrek-Tours/issues). Please read the license note below before reusing any code or images.
+This is a static site with relative asset paths and no build step. After merging the redesign into `main`, configure **Settings → Pages → Deploy from a branch → main → /(root)** if branch publishing is not already enabled. Save the setting, then check the Pages deployment in the Actions tab before refreshing the live URL.
 
-## License
+Official publishing-source instructions: <https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site>
 
-This repository doesn't have a license yet, so it doesn't grant anyone permission to reuse or redistribute its code or images. Please ask before reusing any part of it. The hotel, service, price, menu and social icons are from [Icons8](https://icons8.com).
+The included `.nojekyll` file allows direct static-file publishing. This package does not change repository settings itself.
 
----
+## Validation
+
+See [`docs/VERIFICATION.md`](docs/VERIFICATION.md) for the tested flows and limits. Desktop and phone screenshots are in `screenshots/`.
+
+## Ownership and credits
 
 Built by **Shayan Abrar** · [GitHub](https://github.com/SHAYAN-ABRAR) · [LinkedIn](https://www.linkedin.com/in/shayan-abrar/)
+
+This repository has no project license; this redesign does not add one or change ownership. Fonts retain their included SIL Open Font Licenses. Legacy icons in `Images/` are from [Icons8](https://icons8.com), as credited in the original README; the new interface uses local SVG icons. The previous README is preserved in [`docs/ORIGINAL-README.md`](docs/ORIGINAL-README.md).
